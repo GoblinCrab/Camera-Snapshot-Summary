@@ -1,0 +1,14 @@
+# Extensions to ignore
+*.json
+*.env
+*.csv
+
+# Folders to ignore
+archive/
+logs/
+snapshots/
+summaries/
+
+# Other stuff to ignore
+venv/
+__pychache__/

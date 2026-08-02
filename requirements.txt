@@ -1,0 +1,5 @@
+msal
+requests
+python-dotenv
+Pillow
+fpdf2
