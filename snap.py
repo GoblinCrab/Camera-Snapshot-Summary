@@ -8,14 +8,16 @@ import urllib.parse
 import time
 import csv
 
+from config import cfg
+
 # Setup logging
 logging.basicConfig(filename='log.txt', level=logging.ERROR, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- CONFIGURATION ---
-USER = "monitoring"
-PASS = "Subway2026"
-TP_LINK_PASS = "Subway2026!" # Special password for TP-Link
+USER = cfg.NVR_USER
+PASS = cfg.NVR_PASS
+TP_LINK_PASS = cfg.NVR_TPLINK_PASS  # Special password for TP-Link
 
 BRAND_TEMPLATES = {
     "provision": {

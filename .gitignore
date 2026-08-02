@@ -1,7 +1,20 @@
 # Extensions to ignore
 *.json
-*.env
 *.csv
+*.env
+
+# Sensitive stuff (explicitly ignored)
+secrets.env
+targets.csv
+
+# Don't ignore config.env
+!config.env
+
+# Don't ignore examples
+!secrets.env.example
+!targets.csv.example
+!capture_queue.json.example
+!manifest.json.example
 
 # Folders to ignore
 archive/

@@ -1,0 +1,18 @@
+[
+    {
+        "ip": "192.168.1.123",
+        "brand": "dahua",
+        "ch": 2,
+        "url": "rtsp://yourusernamehere:yourpasswordhere@192.168.1.123:554/chID=2&streamType=main",
+        "name": "Establishment1",
+        "original_ch": 2
+    },
+    {
+        "ip": "192.168.1.123",
+        "brand": "dahua",
+        "ch": 3,
+        "url": "rtsp://yourusernamehere:yourpasswordhere@192.168.1.123:554/chID=3&streamType=main",
+        "name": "Establishment1",
+        "original_ch": 3
+    }
+]
